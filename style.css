@@ -1,0 +1,108 @@
+.container_block {
+  display: flex;
+
+}
+.info_block {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 6px;
+  display: flex;
+  width: 460px;
+}
+.block_day{
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+}
+.block_text{
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+}
+.day_all{
+  font-size: 20px;
+}
+.info div { 
+border-bottom: 1px solid black ;
+border-top: 1px solid black ;
+}
+.day_all {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80px;
+}
+.day_all div {
+border: 1px solid black;
+
+}
+.info {
+  position: relative;
+  width: 70px;
+  font-weight: 600;
+}
+
+.photo {
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.info{
+  margin-top: 26px;
+}
+.time {
+  height: 23px;
+}
+.sky {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.heat {
+  height: 23px;
+}
+.max_min {
+  height: 23px;
+}
+.speed {
+  height: 23px;
+}
+.city_time{
+  width: 150px;
+}
+.city_time h3 {
+  border: 1px solid black;
+}
+.city_time h2 {
+  border: 1px solid black;
+  height: 25px;
+  font-size: 18px;
+}
+.city_time h4 {
+  border: 1px solid black;
+  height: 35px;
+}
+.form_block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_block div {
+  margin-top: 10px;
+}
+.weatherCondition {
+  height: 50px;
+}
+
+.a1 {
+  height: 23px;
+}
+.a2 {
+  height: 23px;
+}
+.a3 {
+  height: 23px;
+}
+.block_day .day_all .photo img{
+  width: "100px";
+  height: "100px";
+}
